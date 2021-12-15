@@ -22,7 +22,7 @@ LED×3
 ---
 ## 配線  
 こちらは配線したものを上から撮った写真です。
-![ロボシス写真]<img src="https://user-images.githubusercontent.com/95609545/146216787-3d2c212e-ff85-4998-afb6-1103f94a77ef.jpg" width="320">
+![ロボシス写真]<img src="https://user-images.githubusercontent.com/95609545/146216787-3d2c212e-ff85-4998-afb6-1103f94a77ef.jpg" width="640">
 
 簡単に説明するとGPIO25,24,23を使いLEDを点灯させる回路です。  
 左から順番に25,24,23にLEDが連動している。  
