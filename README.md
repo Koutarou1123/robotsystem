@@ -32,6 +32,7 @@ LED×3
 ## 動作方法  
 ### [インストールする]
 以下のコマンドをディレクトリ内で実行してください。  
+$git@github.com:Koutarou1123/robotsystem.git
 
 
 
