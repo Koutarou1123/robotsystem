@@ -83,4 +83,4 @@ echo 4 > /dev/myled0
 
 
 ## ライセンス
-
+GNU General Public License v3.0
