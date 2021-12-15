@@ -83,4 +83,5 @@ echo 4 > /dev/myled0
 
 
 ## ライセンス
-GNU General Public License v3.0
+GNU General Public License v3.0  
+ライセンスの中身の詳細が見たい場合はリポジトリ内にあるCOPYINGを参照してください。
