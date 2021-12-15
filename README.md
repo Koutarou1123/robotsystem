@@ -32,13 +32,13 @@ LED×3
 ## 動作方法  
 ### [インストールする]
 以下のコマンドをディレクトリ内で実行してください。  
-'''
+```
 $ git clone https://github.com/Koutarou1123/robotsystem.git  
 $ cd robotsystem  
 $ make  
 $sudo insmod myled.ko  
 $sudo chmod 666 /dev/myled0  
-'''
+```
 ---
 
 
