@@ -60,7 +60,7 @@ $ echo 0 > /dev/myled0
 
 ### LED2を点灯させたい場合
 ```
-echo 3 > /dev/myled0
+$ echo 3 > /dev/myled0
 ```
 
 ### LED2を消灯させたい場合
@@ -70,12 +70,12 @@ $ echo 2 > /dev/myled0
 
 ### LED3を点灯させたい場合
 ```
-echo 5 > /dev/myled0
+$ echo 5 > /dev/myled0
 ```
 
 ###  LED3を消灯させたい場合
 ```
-echo 4 > /dev/myled0
+$ echo 4 > /dev/myled0
 ```
 
 ## 実行結果
