@@ -78,8 +78,9 @@ echo 5 > /dev/myled0
 echo 4 > /dev/myled0
 ```
 
-
-
+## 実行結果
+以下のリンクから今回の動画がyoutubeで見ることが可能です
+http://youtube.be/xy1
 
 
 ## ライセンス
