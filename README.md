@@ -8,7 +8,7 @@
 
 ---
 ## 動作環境
-OS Ubuntu18.04 server
+OS Ubuntu18.04 server  
 Rasberry Pi 4B
 
 ---
