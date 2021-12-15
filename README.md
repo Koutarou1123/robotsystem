@@ -83,4 +83,4 @@ echo 4 > /dev/myled0
 
 
 ## ライセンス
-https://github.com/Koutarou1123/robotsystem/blob/7e38113148697804338ed15130f2ecbb9a66b790/COPYING
+
