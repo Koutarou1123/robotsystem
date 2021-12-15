@@ -36,8 +36,8 @@ LED×3
 $ git clone https://github.com/Koutarou1123/robotsystem.git  
 $ cd robotsystem  
 $ make  
-$sudo insmod myled.ko  
-$sudo chmod 666 /dev/myled0  
+$ sudo insmod myled.ko  
+$ sudo chmod 666 /dev/myled0  
 ```
 ---
 ### [アンインストールする]  
