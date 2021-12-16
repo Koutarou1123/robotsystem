@@ -65,8 +65,8 @@ static int __init init_mod(void){
                  printk(KERN_ERR "class_create failed.");
 	         return PTR_ERR(cls);
                  }
-        device_create(cls, NULL, dev, NULL, "myled%d", MINOR(dev));
-        gpio_base = ioremap_nocache(0xfe200000, 0xA0);
+device_create(cls, NULL, dev, NULL, "myled%d", MINOR(dev));
+gpio_base = ioremap_nocache(0xfe200000, 0xA0);
 const u32 led1 = 25;
 const u32 index1 = led1/10;
 const u32 shift1 = (led1%10)*3;
