@@ -74,3 +74,13 @@ https://youtu.be/xy1lfH40Ci0
 ## ライセンス
 GNU General Public License v3.0  
 ライセンスの詳細が見たい場合はリポジトリ内にあるCOPYINGを参照してください。
+
+## 著作
+Ryuichi Ueda  
+Yuma Ito  
+### コントリビューション  
+授業通りにソースコードを作成しLEDを一つ点灯・消灯させることに成功した。  
+しかし発展の内容としてLED三つをスイッチでON,OFFしようとしたがうまくいかなかった。  
+そこで、上記のYuma ItoにどのようにしてLEDを追加するかを教わりプログラムを変更し目的であるスイッチでのLEDのON,OFFに成功した。
+
+
