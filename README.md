@@ -43,7 +43,6 @@ $ sudo chmod 666 /dev/myled0
 ### [アンインストールする]  
 以下のコマンドをディレクトリ内で実行してください。  
 ```
-
 $ sudo rmmod myled  
 $ make clean  
 ```
