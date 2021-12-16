@@ -39,8 +39,9 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 		 else if(c == '5'){
    		 gpio_base[7] = 1 << 23;
 		 }
-		 return 1;
+return 1;
 }
+
 static struct file_operations led_fops = {
 	          .owner = THIS_MODULE,
 		  .write = led_write
@@ -83,9 +84,9 @@ const u32 index3 = led3/10;
 const u32 shift3 = (led3%10)*3;																
 const u32 mask3 = ~(0x7<<shift3);
 gpio_base[index3] = (gpio_base[index3] & mask3 ) | (0x1 << shift3);
-	         
 return 0;									
 }
+
 static void __exit cleanup_mod(void){
         cdev_del(&cdv);
         device_destroy(cls, dev);
