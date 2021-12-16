@@ -2,7 +2,8 @@
 　ロボットシステム学　課題1　リポジトリ  
 ## 概要
 ---
-　今回のリポジトリは三つのLEDの点滅をスイッチによって点灯させるデバイスドライバで上田先生の作ったプログラムを改良したものです。  
+　今回のリポジトリは三つのLEDの点滅をスイッチによって点灯させるデバイスドライバで上田先生の作ったプログラムを改良したものです。
+ 
 ---
 ## 動作環境
 ・OS Ubuntu18.04 server  
@@ -19,8 +20,7 @@
 ---
 ## 配線  
 　こちらは配線したものを上から撮った写真です。  
-<img src="https://user-images.githubusercontent.com/95609545/146216787-3d2c212e-ff85-4998-afb6-1103f94a77ef.jpg" width="500">
-
+<img src="https://user-images.githubusercontent.com/95609545/146216787-3d2c212e-ff85-4998-afb6-1103f94a77ef.jpg" width="500">  
 　簡単に説明するとGPIO25,24,23を使いLEDを点灯させる回路で、左から順番に25,24,23と各LEDが連動している。  
 　回路自体は、GPIOからスイッチに入り出たほうをLEDのアノードに入れてカソードからでてそこから抵抗に入りグランドに落ちるというものでこれを三つ作りました。
 
@@ -34,8 +34,7 @@ $ cd robotsystem
 $ make  
 $ sudo insmod myled.ko  
 $ sudo chmod 666 /dev/myled0  
-```
-
+```  
 ### [アンインストールする]  
 　以下のコマンドをディレクトリ内で実行してください。  
 ```
@@ -52,33 +51,26 @@ $ echo 1 > /dev/myled0
 ### LED1を消灯させたい場合
 ```
 $ echo 0 > /dev/myled0
-```
-
+```  
 ### LED2を点灯させたい場合
 ```
 $ echo 3 > /dev/myled0
-```
-
+```  
 ### LED2を消灯させたい場合
 ```
 $ echo 2 > /dev/myled0
-```
-
+```  
 ### LED3を点灯させたい場合
 ```
 $ echo 5 > /dev/myled0
-```
-
+```  
 ###  LED3を消灯させたい場合
 ```
 $ echo 4 > /dev/myled0
-```
-
+```  
 ## 実行結果
 　以下のリンクから今回の動画がyoutubeで見ることが可能です。  
-　https://youtu.be/xy1lfH40Ci0
-
-
+　https://youtu.be/xy1lfH40Ci0  
 ## ライセンス
 　GNU General Public License v3.0  
 　ライセンスの詳細が見たい場合はリポジトリ内にあるCOPYINGを参照してください。
