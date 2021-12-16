@@ -79,10 +79,10 @@ $ echo 4 > /dev/myled0
 ```
 
 ## 実行結果
-以下のリンクから今回の動画がyoutubeで見ることが可能です
+以下のリンクから今回の動画がyoutubeで見ることが可能です。  
 https://youtu.be/xy1lfH40Ci0
 
 
 ## ライセンス
 GNU General Public License v3.0  
-ライセンスの中身の詳細が見たい場合はリポジトリ内にあるCOPYINGを参照してください。
+ライセンスの詳細が見たい場合はリポジトリ内にあるCOPYINGを参照してください。
