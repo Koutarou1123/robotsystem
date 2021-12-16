@@ -8,16 +8,16 @@
 
 ---
 ## 動作環境
-OS Ubuntu18.04 server  
-Rasberry Pi 4B
+・OS Ubuntu18.04 server  
+・Rasberry Pi 4B
 
 ---
 ## 必要なもの
-Raspberry Pi 4B  
-LED×3  
-ブレッドボード×1  
-ジャンパー線×6  
-抵抗(330Ω)×3  
+・Raspberry Pi 4B  
+・LED×3  
+・ブレッドボード×1  
+・ジャンパー線×6  
+・抵抗(330Ω)×3  
 
 ---
 ## 配線  
