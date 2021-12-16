@@ -39,7 +39,7 @@ $ make
 $ sudo insmod myled.ko  
 $ sudo chmod 666 /dev/myled0  
 ```
----
+
 ### [アンインストールする]  
 以下のコマンドをディレクトリ内で実行してください。  
 ```
@@ -47,6 +47,7 @@ $ sudo chmod 666 /dev/myled0
 $ sudo rmmod myled  
 $ make clean  
 ```
+
 ## 実行方法
 ### LED1を点灯させたい場合
 ```
