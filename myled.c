@@ -74,7 +74,7 @@ static ssize_t led_write(struct file* filp* filp, const char* buf, size_t count,
      }
    }
     else if(c == '8'){
-      if(g % 2 == ){
+      if(g % 2 == 1){
         g++;
       }
       while(s < 10000){
@@ -119,7 +119,7 @@ static int__init_mod(void){
            if(retval < 0){
             printk(KERN_ERR "cdev_add failed. major:%d. minor:%d", MAJOR(dev),MINOR(dev));
             return retval;
-    }
+           }
   cls = Class_create(THIS_MODULE, "myled");
         if(IS_ERR(cls)){
           printk(KERN_ERR "class_create failed.");
