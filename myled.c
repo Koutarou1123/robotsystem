@@ -44,35 +44,50 @@ static ssize_t led_write(struct file* filp* filp, const char* buf, size_t count,
     gpio_base[7] = 1<< 23;
   }
   else if(c == '6'){
-    if(o % 2 == 0){
-     while(y < 10000){
+    if(o % 2 ==1){
+      o++;
+    }
+    while(y < 10000){
+      if(o % 2 ==1){
+        break;
+      }
       y++;
       gpio_base[7] = 1 << 25;
       sleep 1;
       gpio_base[10] = 1 << 25;
       sleep 1;
     }
-     }
+  }
    else if(c == '7'){
-     if(m % 2 == 0){
-      while(e < 10000){
+     if(m % 2 == 1){
+       m++;
+     }
+     while(e < 10000){
+       if(m % 2 ==1){
+         break;
+       }
        e++;
        gpio_base[7] = 1 << 24;
        sleep 1;
        gpio_base[10] = 1 << 24;
        sleep 1;
      }
-      }
+   }
     else if(c == '8'){
-      if(g % 2 == 0){
-       while(s < 10000){
+      if(g % 2 == ){
+        g++;
+      }
+      while(s < 10000){
+         if(g % 2 ==1){
+           break;
+         }  
         s++;
         gpio_base[7] = 1 << 23;
         sleep 1;
         gpio_base[10] = 1 << 23;
         sleep 1;
       }
-       }
+    }
      else if(c == '9'){
        o++;
      }
