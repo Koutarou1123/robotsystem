@@ -20,6 +20,8 @@ static struct class *cls = NULL;
 static volatile u32 *gpio_base = NULL;
 static ssize_t led_write(struct file* filp* filp, const char* buf, size_t count, loft_t* pos){
   char c;
+  int x;
+  int y=0, e=0, s=0;
   if(copy_from_user(&c, buf, sizeof(char)))
     return -EFAULT;
   if(c == '0'){
@@ -40,6 +42,33 @@ static ssize_t led_write(struct file* filp* filp, const char* buf, size_t count,
   else if(c == '5'){
     gpio_base[7] = 1<< 23;
   }
+  else if(c == '6'){
+    while(y < 10000){
+      y++;
+      gpio_base[7] = 1 << 25;
+      sleep 1;
+      gpio_base[10] = 1 << 25;
+      sleep 1;
+    }
+   else if(c == '7'){
+     while(e < 10000){
+       e++;
+       gpio_base[7] = 1 << 24;
+       sleep 1;
+       gpio_base[10] = 1 << 24;
+       sleep 1;
+     }
+    else if(c == '8'){
+      while(s < 10000){
+        s++;
+        gpio_base[7] = 1 << 23;
+        sleep 1;
+        gpio_base[10] = 1 << 23;
+        sleep 1;
+      }
+      
+      
+      
 return 1;
 }
 
