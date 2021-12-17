@@ -90,5 +90,13 @@ static int__init_mod(void){
   return 0;
 }
 
+static void __exit cleanup_mod(void){
+  cdev_del(&cdv);
+  device_destory(cls, dev);
+  class_destory(cls);
+  unregister_chrdev_region(dev, 1);
+  printk(KERN_INFO "%s is unloaded. major:%d\n", __FILE__, MAJOR(dev));
+}
 
-  
+module_init(init_mod);
+module_exit(cleanup_mod);
