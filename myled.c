@@ -1,6 +1,6 @@
 //SPDX-LISENCE-IDENTIFIRE:GPL-3.0
 /*
-*Copyright(c)2021 Ryuichi Ueda. Yuma Ito. All rights reserved.
+*Copyright(c)2021 Ryuichi Ueda. All rights reserved.
 */
 
 
