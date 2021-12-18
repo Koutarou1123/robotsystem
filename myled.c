@@ -105,28 +105,21 @@ static int __init init_mod(void)
 	}
 
  device_create(cls, NULL, dev, NULL, "myled%d" , MINOR(dev));
- 
  gpio_base = ioremap_nocache(0xfe200000, 0xA0);
- 
  const u32 led1 = 25;
  const u32 index1 = led1/10;
  const u32 shift1 = (led1%10)*3;
  const u32 mask1 = ~(0x7<<shift1);
- 
  gpio_base[index1] = (gpio_base[index1] & mask1 ) | (0x1 << shift1);
-
  const u32 led2 = 24;
  const u32 index2 = led2/10;
  const u32 shift2 = (led2%10)*3;
  const u32 mask2 = ~(0x7<<shift2);
- 
  gpio_base[index2] = (gpio_base[index2] & mask2 ) | (0x1 << shift2);
-
  const u32 led3 = 23;
  const u32 index3 = led3/10;
  const u32 shift3 = (led3%10)*3;
  const u32 mask3 = ~(0x7<<shift3);
- 
  gpio_base[index3] = (gpio_base[index3] & mask3 ) | (0x1 << shift3);
  
  return 0;
