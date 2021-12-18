@@ -62,7 +62,7 @@ $ echo 3 > /dev/myled0
 ```  
 ### LED3を点滅させたい場合
 ```
-$ echo  > /dev/myled0
+$ echo 4 > /dev/myled0
 ```  
 ## 実行結果
 以下のリンクから今回の動画がyoutubeで見ることが可能です。  
